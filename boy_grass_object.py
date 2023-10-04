@@ -27,7 +27,7 @@ class Boy:
 
 class BigBall:
     def __init__(self):
-        self.x,self.y=random.randint(0,800),559
+        self.x,self.y=random.randint(0,800),599
         self.image = load_image('ball41x41.png')
         self.speed = random.randint(4,11)
     def update(self):
@@ -38,7 +38,7 @@ class BigBall:
 
 class SmallBall:
     def __init__(self):
-        self.x,self.y=random.randint(0,800),559
+        self.x,self.y=random.randint(0,800),599
         self.image = load_image('ball21x21.png')
         self.speed = random.randint(4, 11)
     def update(self):
